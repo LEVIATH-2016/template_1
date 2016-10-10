@@ -1,0 +1,526 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+	display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+body
+{
+	 -webkit-text-size-adjust: 100%; /* 2 */
+			 -ms-text-size-adjust: 100%; /* 2 */
+}
+
+*{
+ -moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+-o-box-sizing: border-box;
+-ms-box-sizing: border-box;
+box-sizing: border-box;
+
+}
+
+/* clearfix */
+
+.clearfix:after {
+	 content:" ";
+	 display:block;
+	 clear:both;
+}
+
+
+img{
+	 vertical-align: bottom;
+}
+
+a{
+	 text-decoration: none;
+
+	 outline: none;
+}
+
+li{
+ list-style: none;
+}
+
+a:hover
+{
+	 text-decoration: underline;
+}
+
+.main{
+ position: relative;
+}
+
+
+@import url(//fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+
+/*font-family: 'Noto Sans Japanese', sans-serif;*/
+
+body
+{
+	color: #0f0f0f;
+	font-family: "メイリオ","Meiryo",
+         "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","Osaka",
+         "ＭＳ Ｐゴシック","MS PGothic","Verdana",sans-serif;;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-size-adjust: 100%; /* 2 */
+    -ms-text-size-adjust: 100%; /* 2 */
+	height: 100%;
+}
+
+.gothic{
+	font-family:'Noto Sans Japanese', sans-serif;
+}
+
+
+
+
+
+
+div.wrap {
+
+}
+div.wrap div.block-1 {
+
+	background-color: #e4edea;
+	padding-bottom: 70px;
+}
+div.wrap div.block-1 div.block-1-inner {
+
+	width: 640px;
+	margin: 0 auto;
+}
+div.wrap div.block-1 div.block-1-inner p.logo-word {
+	padding-top: 32px;
+}
+div.wrap div.block-1 div.block-1-inner p.logo-word img {
+}
+div.wrap div.block-1 div.block-1-inner h1.title {
+	margin-top: 65px;
+	text-align: center;
+	margin-bottom: 42px;
+}
+div.wrap div.block-1 div.block-1-inner h1.title img {
+}
+div.wrap div.block-1 div.block-1-inner ul.cd-info {
+	margin: 0 auto;
+	text-align: center;
+}
+div.wrap div.block-1 div.block-1-inner ul.cd-info li {
+	display: inline-block;
+	border: 1px solid #000;
+	text-align: center;
+	height: 28px;
+	line-height: 25px;
+	padding: 0 8px;
+
+}
+div.wrap div.block-2 {
+
+	background-color: #282947;
+}
+div.wrap div.block-2 div.block-2-inner {
+
+	width: 584px;
+	margin: 0 auto;
+	padding:25px 0;
+}
+div.wrap div.block-2 div.block-2-inner img {
+}
+div.wrap div.block-3 {
+	background-color: #e4edea;
+}
+div.wrap div.block-3 div.block-3-inner {
+	padding: 75px 0;
+
+}
+div.wrap div.block-3 div.block-3-inner ul {
+	text-align: center;
+}
+div.wrap div.block-3 div.block-3-inner ul li {
+	margin-bottom: 30px;
+}
+div.wrap div.block-3 div.block-3-inner ul li span {
+}
+div.wrap div.block-4 {
+	background-color: #4d63a1;
+	padding: 66px 0;
+}
+div.wrap div.block-4 div.block-4-inner {
+	width: 500px;
+	margin: 0 auto;
+}
+div.wrap div.block-5 {
+	background-color: #e4edea;
+}
+div.wrap div.block-5 div.block-5-inner {
+	width: 510px;
+	margin: 0 auto;
+	padding: 36px 0;
+}
+div.wrap div.block-5 div.block-5-inner .credit-img{
+	text-align: center;
+	margin-bottom: 15px;
+}
+div.wrap div.block-5 div.block-5-inner img {
+}
+div.wrap div.block-5 div.block-5-inner table {
+	width: 450px;
+	margin: 0 auto;
+
+}
+div.wrap div.block-5 div.block-5-inner table tbody {
+}
+div.wrap div.block-5 div.block-5-inner table tbody tr {
+}
+div.wrap div.block-5 div.block-5-inner table tbody tr td {
+	text-align: left;
+	padding: 10px 0;
+	line-height: 1.4
+}
+div.wrap div.block-5 div.block-5-inner table tbody tr td:first-child{
+	text-align: right;
+	padding-right:24px;
+}
+div.wrap div.block-6 {
+	background-color: #282947;
+	color: #fff;
+	padding-top: 100px;
+
+}
+div.wrap div.block-6 div.block-6-inner {
+
+	width: 638px;
+	margin: 0 auto;
+
+
+
+}
+div.wrap div.block-6 div.block-6-inner div.left-block {
+
+	float: left;
+
+	width: 285px;
+	margin-right: 42px;
+	padding-top: 14px;
+}
+div.wrap div.block-6 div.block-6-inner div.left-block table {
+	margin: 0 auto;
+	width: 220px;
+
+}
+div.wrap div.block-6 div.block-6-inner div.left-block table tbody {
+	font-size: 13px;
+
+}
+div.wrap div.block-6 div.block-6-inner div.left-block table tbody tr {
+}
+div.wrap div.block-6 div.block-6-inner div.left-block table tbody tr td {
+
+	text-align: left;
+	padding: 3px 0;
+	line-height: 1.4
+}
+div.wrap div.block-6 div.block-6-inner div.left-block table tbody tr td:first-child{
+
+	text-align: right;
+	padding-right:24px;
+}
+div.wrap div.block-6 div.block-6-inner p.shop-logo {
+margin-top: 38px;
+	text-align: center;
+	margin-bottom: 18px;
+}
+div.wrap div.block-6 div.block-6-inner p.shop-logo img {
+}
+div.wrap div.block-6 div.block-6-inner ul {
+
+}
+div.wrap div.block-6 div.block-6-inner ul li {
+	display: inline-block;
+	border: 1px solid #000;
+	text-align: center;
+	height: 28px;
+	line-height: 25px;
+	padding: 0 8px;
+	width: 135px;
+	margin-bottom: 6px;
+}
+div.wrap div.block-6 div.block-6-inner ul li a {
+	display: block;
+	color: #fff;
+	font-size: 12px;
+}
+div.wrap div.block-6 div.block-6-inner div.right-block {
+	float: left;
+}
+div.wrap div.block-6 div.block-6-inner div.right-block img {
+}
+
+div.wrap .copy-right{
+	text-align: center;
+
+	margin: 100px 0 0;
+	padding-bottom: 30px;
+}
+
+div.wrap small {
+	color: #fff;
+	text-align: center;
+}
+
+@media screen and (max-width: 767px){
+
+	img{
+		width: 100%;
+	}
+
+	div.wrap {
+	}
+	div.wrap div.block-1 {
+		padding-bottom: 30px;
+	}
+	div.wrap div.block-1 div.block-1-inner {
+		max-width: 640px;
+		width: auto;
+		padding: 0 20px;
+	}
+	div.wrap div.block-1 div.block-1-inner p.logo-word {
+	}
+	div.wrap div.block-1 div.block-1-inner p.logo-word img {
+	}
+	div.wrap div.block-1 div.block-1-inner h1.title {
+
+		margin-top: 30px;
+		margin-bottom: 20px;
+	}
+	div.wrap div.block-1 div.block-1-inner h1.title img {
+	}
+	div.wrap div.block-1 div.block-1-inner ul.cd-info.gothic {
+	}
+	div.wrap div.block-1 div.block-1-inner ul.cd-info.gothic li {
+		display: block;
+		margin-bottom: 10px
+
+	}
+	div.wrap div.block-2 {
+	}
+	div.wrap div.block-2 div.block-2-inner {
+
+		max-width: 640px;
+		width: auto;
+		padding-right:20px;
+		padding-left:20px;
+	}
+	div.wrap div.block-2 div.block-2-inner img {
+	}
+	div.wrap div.block-3 {
+	}
+	div.wrap div.block-3 div.block-3-inner {
+
+		padding: 30px 0;
+	}
+	div.wrap div.block-3 div.block-3-inner ul {
+	}
+	div.wrap div.block-3 div.block-3-inner ul li {
+		font-size: 12px;
+		margin-bottom: 16px;
+	}
+	div.wrap div.block-4 {
+		padding: 30px 0;
+	}
+	div.wrap div.block-4 div.block-4-inner {
+		max-width: 500px;
+		width: auto;
+		margin: 0 auto;
+		padding-right:20px;
+		padding-left:20px;
+
+	}
+	div.wrap div.block-4 div.block-4-inner iframe {
+
+	}
+	div.wrap div.block-5 {
+	}
+	div.wrap div.block-5 div.block-5-inner {
+
+		max-width: 640px;
+		width: auto;
+		padding-right:20px;
+		padding-left:20px;
+	}
+	div.wrap div.block-5 div.block-5-inner div.credit-img {
+	}
+	div.wrap div.block-5 div.block-5-inner div.credit-img img {
+		width: 60%;
+	}
+	div.wrap div.block-5 div.block-5-inner table {
+
+		font-size: 12px;
+		width: 280px;
+	}
+	div.wrap div.block-5 div.block-5-inner table tbody {
+
+	}
+	div.wrap div.block-5 div.block-5-inner table tbody tr {
+	}
+	div.wrap div.block-5 div.block-5-inner table tbody tr td {
+	}
+	div.wrap div.block-5 div.block-5-inner table tbody tr td:first-child{
+		width: 110px;
+		padding-right: 14px;
+	}
+	div.wrap div.block-6 {
+		padding-top: 30px;
+	}
+	div.wrap div.block-6 div.block-6-inner {
+		max-width: 638px;
+		width: auto;
+		padding-right:20px;
+		padding-left:20px;
+	}
+	div.wrap div.block-6 div.block-6-inner div.left-block {
+
+		width: 100%;
+		float: none;
+
+	}
+	div.wrap div.block-6 div.block-6-inner div.left-block table {
+		width: 220px;
+	}
+	div.wrap div.block-6 div.block-6-inner div.left-block table tbody {
+
+	}
+	div.wrap div.block-6 div.block-6-inner div.left-block table tbody tr {
+	}
+	div.wrap div.block-6 div.block-6-inner div.left-block table tbody tr td {
+	}
+	div.wrap div.block-6 div.block-6-inner div.left-block p.shop-logo {
+	}
+	div.wrap div.block-6 div.block-6-inner div.left-block p.shop-logo img {
+		width: 40%;
+	}
+	div.wrap div.block-6 div.block-6-inner div.left-block ul {
+	}
+	div.wrap div.block-6 div.block-6-inner div.left-block ul li {
+		display: block;
+		margin-bottom: 10px;
+		width: 100%;
+	}
+	div.wrap div.block-6 div.block-6-inner div.left-block ul li a {
+	}
+	div.wrap div.block-6 div.block-6-inner div.right-block {
+		float: none;
+		margin-top: 30px
+	}
+	div.wrap div.block-6 div.block-6-inner div.right-block img {
+
+	}
+	div.wrap div.block-6 div.copy-right {
+		margin-top: 20px;
+	}
+	div.wrap div.block-6 div.copy-right small {
+		font-size: 10px;
+	}
+
+
+}
