@@ -1,0 +1,31 @@
+{
+  "name": "leviath_template_1",
+  "version": "1.0.0",
+  "description": "leviath_template_1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LEVIATH-2016/template_1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LEVIATH-2016/template_1/issues"
+  },
+  "homepage": "https://github.com/LEVIATH-2016/template_1#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-csscomb": "^3.0.8",
+    "gulp-ejs": "^2.2.1",
+    "gulp-if": "^2.0.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^2.0.0",
+    "require-dir": "^0.3.1"
+  }
+}
