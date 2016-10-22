@@ -1,0 +1,357 @@
+@charset 'UTF-8';
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+@import url(//fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video
+{
+    font-size: 100%;
+
+    margin: 0;
+    padding: 0;
+
+    vertical-align: baseline;
+
+    border: 0;
+    outline: 0;
+    background: transparent;
+}
+
+body
+{
+    line-height: 1;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section
+{
+    display: block;
+}
+
+nav ul
+{
+    list-style: none;
+}
+
+blockquote,
+q
+{
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after
+{
+    content: '';
+    content: none;
+}
+
+a
+{
+    font-size: 100%;
+
+    margin: 0;
+    padding: 0;
+
+    vertical-align: baseline;
+
+    background: transparent;
+}
+
+/* change colours to suit your needs */
+ins
+{
+    text-decoration: none;
+
+    color: #000;
+    background-color: #ff9;
+}
+
+/* change colours to suit your needs */
+mark
+{
+    font-weight: bold;
+    font-style: italic;
+
+    color: #000;
+    background-color: #ff9;
+}
+
+del
+{
+    text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title]
+{
+    cursor: help;
+
+    border-bottom: 1px dotted;
+}
+
+table
+{
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+/* change border color to suit your needs */
+hr
+{
+    display: block;
+
+    height: 1px;
+    margin: 1em 0;
+    padding: 0;
+
+    border: 0;
+    border-top: 1px solid #ccc;
+}
+
+input,
+select
+{
+    vertical-align: middle;
+}
+
+body
+{
+    -webkit-text-size-adjust: 100%;
+    /* 2 */
+        -ms-text-size-adjust: 100%;
+    /* 2 */
+    -webkit-font-smoothing: antialiased;
+}
+
+*
+{
+        box-sizing: border-box;
+
+     -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+}
+
+/* clearfix */
+.clearfix:after
+{
+    display: block;
+    clear: both;
+
+    content: ' ';
+}
+
+img
+{
+    vertical-align: bottom;
+}
+
+a
+{
+    text-decoration: none;
+
+    outline: none;
+}
+
+li
+{
+    list-style: none;
+}
+
+a:hover
+{
+    text-decoration: underline;
+}
+
+/*font-family: 'Noto Sans Japanese', sans-serif;*/
+.gothic
+{
+    font-family: 'Noto Sans Japanese', sans-serif;
+}
+
+body
+{
+    font-family: 'メイリオ','Meiryo', 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','Osaka', 'ＭＳ Ｐゴシック','MS PGothic','Verdana',sans-serif;
+
+    height: 100%;
+
+    color: #0f0f0f;
+}
+
+.main
+{
+    position: relative;
+}
+
+@media screen and (max-width: 767px)
+{
+    img
+    {
+        width: 100%;
+    }
+}
+
+#title-block
+{
+    padding-bottom: 70px;
+
+    background-color: #e4edea;
+}
+
+#title-block .title-block-inner
+{
+    width: 640px;
+    margin: 0 auto;
+}
+
+#title-block .logo-word
+{
+    padding-top: 32px;
+}
+
+#title-block .title
+{
+    margin-top: 65px;
+    margin-bottom: 42px;
+
+    text-align: center;
+}
+
+#title-block .cd-info
+{
+    margin: 0 auto;
+
+    text-align: center;
+}
+
+#title-block .cd-info li
+{
+    line-height: 25px;
+
+    display: inline-block;
+
+    height: 28px;
+    padding: 0 8px;
+
+    text-align: center;
+
+    border: 1px solid #000;
+}
+
+@media screen and (max-width: 767px)
+{
+    #title-block
+    {
+        padding-bottom: 30px;
+    }
+    #title-block .title-block-inner
+    {
+        width: auto;
+        max-width: 640px;
+        padding: 0 20px;
+    }
+    #title-block .logo-word
+    {
+        padding-top: 32px;
+    }
+    #title-block .title
+    {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    #title-block .cd-info
+    {
+        margin: 0 auto;
+
+        text-align: center;
+    }
+    #title-block .cd-info li
+    {
+        display: block;
+
+        margin-bottom: 10px;
+    }
+}

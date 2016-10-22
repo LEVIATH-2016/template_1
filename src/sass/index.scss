@@ -1,3 +1,10 @@
 @charset "utf-8";
 
-@import "module/*";
+@import "module/reset/*";
+@import "module/font/*";
+@import "module/component/*";
+
+.wrap {
+
+}
+@import "module/contents/*";
